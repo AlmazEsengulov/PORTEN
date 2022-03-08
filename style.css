@@ -163,6 +163,7 @@ a:hover{
 /*season*/
 .season__flex{
     display: flex;
+    flex-wrap: wrap;
 }
 .season__block{
     width: 50%;
@@ -182,6 +183,8 @@ a:hover{
 .season__clock{
     display: flex;
     justify-content: space-around;
+
+    flex-wrap: wrap;
 }
 .seaason__clock__clock{
     width: 26%;
